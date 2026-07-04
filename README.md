@@ -22,7 +22,7 @@ Design a cloud disaster recovery solution using AWS S3 with multi-region backup 
 
 ### Architecture Diagram
 
-![Disaster Recovery Architecture](architecture.png)
+![Disaster Recovery Architecture](architecture.png.jpeg)
 
 ### Workflow
 
