@@ -1,0 +1,17 @@
+Disaster Recovery Failover Plan
+
+Primary Region:
+- Asia Pacific (Mumbai) - ap-south-1
+
+Backup Region:
+- Asia Pacific (Singapore) - ap-southeast-1
+
+Failover Steps:
+1. Detect failure in Mumbai region.
+2. Switch application to Singapore backup bucket.
+3. Continue serving files from Singapore.
+4. Restore Mumbai region when available.
+5. Synchronize data back to the primary region.
+
+Status:
+Automatic disaster recovery process.
