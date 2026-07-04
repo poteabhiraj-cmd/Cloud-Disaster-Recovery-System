@@ -1,0 +1,15 @@
+RTO / RPO Analysis
+
+Recovery Time Objective (RTO): 15 Minutes
+
+Recovery Point Objective (RPO): 5 Minutes
+
+Recovery Strategy:
+- Primary Region: Mumbai (ap-south-1)
+- Backup Region: Singapore (ap-southeast-1)
+- Data is stored in both regions.
+- If Mumbai fails, the application uses the Singapore backup.
+- When Mumbai is restored, data is synchronized back.
+
+Conclusion:
+This disaster recovery system minimizes downtime and data loss using multi-region backups.
