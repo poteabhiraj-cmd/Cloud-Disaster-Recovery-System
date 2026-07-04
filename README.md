@@ -18,15 +18,22 @@ Design a cloud disaster recovery solution using AWS S3 with multi-region backup 
 - RTO/RPO analysis
 
 ## Architecture
+
+
+### Architecture Diagram
+
+![Disaster Recovery Architecture](architecture.png)
+
+### Workflow
+
 Primary Region (Mumbai)
         │
         ▼
-   Amazon S3 Bucket
+Amazon S3 Bucket
         │
-  Backup Copy
+ Backup Copy
         ▼
 Backup Region (Singapore)
-   Amazon S3 Bucket
-
+Amazon S3 Bucket
 ## Conclusion
 This project demonstrates a simple disaster recovery system using AWS S3. Data is stored in two regions, reducing the risk of data loss and improving availability during regional failures.
